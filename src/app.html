@@ -1,0 +1,16 @@
+<template>
+  <section if.bind='!auth.isSignedIn'>
+    <h1>${message}</h1>
+    <button click.delegate='auth.signIn()'>Sign In</button>
+  </section>
+
+  <section else>
+    <h1>Hello ${auth.name}</h1>
+
+    <ul repeat.for='task of tasks'>
+      <li>${task.name}</li>
+    </ul>
+
+    <button click.delegate='save()'>Save</button>
+  </section>
+</template>

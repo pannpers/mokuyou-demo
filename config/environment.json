@@ -1,0 +1,14 @@
+{
+  "debug": true,
+  "testing": true,
+  "firebaseConfig": {
+    "apiKey": "AIzaSyCfvYNkgqWJqdgWlN1YESKeLX1EU36z130",
+    "authDomain": "mokuyou-demo.firebaseapp.com",
+    "databaseURL": "https://mokuyou-demo.firebaseio.com",
+    "projectId": "mokuyou-demo",
+    "storageBucket": "mokuyou-demo.appspot.com",
+    "messagingSenderId": "209523484875",
+    "appId": "1:209523484875:web:6de6d794ee0df4a2ab934e",
+    "measurementId": "G-X45F2YDCW3"
+  }
+}
